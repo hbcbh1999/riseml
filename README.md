@@ -1,6 +1,6 @@
-<img src="https://cdn.riseml.com/img/banner_github.png" />
-
 # RiseML
+
+<img src="https://cdn.riseml.com/img/banner_github.png" />
 
 [RiseML](https://riseml.com) is a scalable deep learning environment for GPU servers based on [Kubernetes](https://kubernetes.io)
 
