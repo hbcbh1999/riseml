@@ -31,7 +31,7 @@ Documentation for RiseML can be found at <http://docs.riseml.com>.
 Publishes utilization stats and node information for Kubernetes nodes and PODs.
 This includes GPU information and statistics like available NVIDIA driver version, installed GPUs with serial number/model/type, current  usage and temperature.
 
-### [riseml/client](https://github.com/riseml/client)
+### [riseml/cli](https://github.com/riseml/cli)
 
 RiseML command line client. It connects to the RiseML API server and allows you start and monitor experiments on your GPU cluster.
 
@@ -39,3 +39,12 @@ RiseML command line client. It connects to the RiseML API server and allows you 
 
 Parses and validates the RiseML experiment configurations (`riseml.yml`).
 It is used by the client and server for validation and can easily be incorporated in other libraries.
+
+### [riseml/client-python](https://github.com/riseml/client-python)
+
+RiseML Python library.
+Allows you to report results of experiments and talk to the API.
+
+### [riseml/examples](https://github.com/riseml/examples)
+
+Example projects to run and test your RiseML GPU cluster.
