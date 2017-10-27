@@ -7,24 +7,22 @@
 This repository contains the [central issue tracker](https://github.com/riseml/riseml/issues) for the RiseML
 project.
 
-## Quick Start
+## Software Requirements
 
-You need a Kubernetes cluster up and running with ```kubectl``` and ```helm``` installed.
-
-```
-kubectl create namespace riseml
-helm repo add riseml-charts https://cdn.riseml.com/helm-charts
-helm install riseml-charts/riseml --name riseml --namespace riseml
-```
+|               | Version   | Comments                |
+| ------------- | --------- | ----------------------- |
+| Linux kernel  | ≥ 3.10    |                         |
+| Docker        | ≥ 1.12.6  |                         |
+| Kubernetes    | ≥ 1.6.0   |                         |
+| Helm          | ≥ 2.5     | If you use RBAC, you need to [configure permissions](kubernetes.md#helm-setup) |
+| Nvidia driver | ≥ 375     | (**Optional**) GPU only |
 
 ## Documentation
 
 Documentation for the RiseML project can be found at
 <http://docs.riseml.com>.
 
-## Other repositories
-
-RiseML consists of many different sub-projects. The main ones are:
+## Repositories
 
 ### client
 
