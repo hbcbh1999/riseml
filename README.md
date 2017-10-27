@@ -20,6 +20,10 @@ This repository contains the [central issue tracker](https://github.com/riseml/r
 
 Follow the installation instructions at: <http://docs.riseml.com/install/>.
 
+Installing Kubernetes and RiseML from scratch (Screencast, 45min):
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/7GU1Z6TFtA0/0.jpg)](http://www.youtube.com/watch?v=7GU1Z6TFtA0 "Installing Kubernetes and RiseML from scratch")
+
 ## Documentation
 
 Documentation for RiseML can be found at <http://docs.riseml.com>.
