@@ -4,8 +4,7 @@
 
 [RiseML](https://riseml.com) is a scalable deep learning environment for GPU servers based on [Kubernetes](https://kubernetes.io)
 
-This repository contains the [central issue tracker](https://github.com/riseml/riseml/issues) for the RiseML
-project.
+This repository contains the [central issue tracker](https://github.com/riseml/riseml/issues) for RiseML projects.
 
 ## Installation
 
