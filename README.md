@@ -28,23 +28,22 @@ Documentation for RiseML can be found at <http://docs.riseml.com>.
 
 ### [riseml/monitor](https://github.com/riseml/monitor)
 
-Publishes utilization stats and node information for Kubernetes nodes and PODs.
+The RiseML monitor publishes utilization stats and node information for Kubernetes nodes and PODs.
 This includes GPU information and statistics like available NVIDIA driver version, installed GPUs with serial number/model/type, current  usage and temperature.
 
 ### [riseml/cli](https://github.com/riseml/cli)
 
-RiseML command line client. It connects to the RiseML API server and allows you start and monitor experiments on your GPU cluster.
+The RiseML command line client connects to the RiseML API server and allows you start and monitor experiments on your GPU cluster.
 
 ### [riseml/config-parser](https://github.com/riseml/config-parser)
 
-Parses and validates the RiseML experiment configurations (`riseml.yml`).
+The RiseML config parser validates and parses the RiseML experiment configurations (`riseml.yml`).
 It is used by the client and server for validation and can easily be incorporated in other libraries.
 
 ### [riseml/client-python](https://github.com/riseml/client-python)
 
-RiseML Python library.
-Allows you to report results of experiments and talk to the API.
+The RiseML Python library allows you to report results of experiments from your Python code.
 
 ### [riseml/examples](https://github.com/riseml/examples)
 
-Example projects to run and test your RiseML GPU cluster.
+Several example projects to run and test your RiseML GPU cluster.
