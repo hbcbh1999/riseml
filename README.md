@@ -26,9 +26,10 @@ Documentation for the RiseML project can be found at
 
 RiseML consists of many different sub-projects. The main ones are:
 
-### riseml-xxx
+### client
 
-xxx
+[client](https://github.com/riseml/client) contains the RiseML command line client.
+It connects to the RiseML API server and allows you start and monitor experiments on your GPU cluster.
 
 ### riseml-yyy
 
