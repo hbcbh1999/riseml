@@ -4,7 +4,7 @@
 
 [RiseML](https://riseml.com) is a scalable deep learning environment for GPU servers based on [Kubernetes](https://kubernetes.io)
 
-This repository contains the [central issue tracker](https://github.com/riseml/riseml/issues) for RiseML projects.
+This repository contains the [central issue tracker](https://github.com/riseml/riseml/issues) for RiseML.
 
 ## Installation
 
@@ -26,19 +26,16 @@ Documentation for RiseML can be found at <http://docs.riseml.com>.
 
 ## Repositories
 
-### riseml/monitor
+### [riseml/monitor](https://github.com/riseml/monitor)
 
-[monitor](https://github.com/riseml/monitor) publishes utilization stats and node information for Kubernetes nodes and PODs.
+Publishes utilization stats and node information for Kubernetes nodes and PODs.
 This includes GPU information and statistics like available NVIDIA driver version, installed GPUs with serial number/model/type, current  usage and temperature.
 
-### riseml/client
+### [riseml/client](https://github.com/riseml/client)
 
-[client](https://github.com/riseml/client) contains the RiseML command line client.
-It connects to the RiseML API server and allows you start and monitor experiments on your GPU cluster.
+RiseML command line client. It connects to the RiseML API server and allows you start and monitor experiments on your GPU cluster.
 
-### riseml/config-parser
+### [riseml/config-parser](https://github.com/riseml/config-parser)
 
-[config-parser](https://github.com/riseml/config-parser) containes the logic to parse and validate the RiseML experiment configurations (`riseml.yml`).
+Parses and validates the RiseML experiment configurations (`riseml.yml`).
 It is used by the client and server for validation and can easily be incorporated in other libraries.
-
-
