@@ -1,23 +1,23 @@
 # RiseML v0.8.0 (2017/11/13)
 
-This is the first public release of RiseML.
+🎉 This is the first public release of RiseML!
 
 ## Release Notes
-- TensorFlow and TensorBoard support
-- Run distributed training experiments with TensorFlow
-- Run hyperparameter experiments
-- User Management
-- Monitor experiments' CPU, RAM, and GPU stats
+- Introducing new features:
+  - TensorFlow and TensorBoard support
+  - Run distributed training experiments with TensorFlow
+  - Run hyperparameter experiments
+  - User Management
+  - Monitor experiments' CPU, RAM, and GPU stats
 - Improved riseml.yml syntax for addressing frameworks
-- Rewritten Loghandler
+- Improved scalability of log streaming
+- Renamed `dockerBuild` installation parameter to `imageBuilder`
 
-## Upgrading
+## Upgrading from release candidates
 
-This release provides no migration path for release candidates so far (we only provide migration paths for stable/proper releases).
-To upgrade, you need to uninstall your existing RiseML installations and re-install.
-You can use `helm del --purge riseml` to uninstall RiseML from Kubernetes.
+There is no migration path from release candidates. To upgrade, you need to completely uninstall and re-install RiseML:
 
-If you configured persistence for your existing RiseML installation, make sure to delete existing files on your database, git and log storage.
-Afterwards, re-install RiseML as per the [docs](http://docs.riseml.com/).
-
-In the installation parameters, `dockerBuild` was renamed to `imageBuilder`, so if you used that flag, please rename it (all other configuration parameters remained).
+1) uninstall via `helm del --purge riseml`
+2) delete existing files on your database, git and log storage _(only if persistence was configured)_
+3) change `dockerBuild` to `imageBuilder` in `riseml-config.yml`
+4) re-install according to [installation insstructions](http://docs.riseml.com/install/).
