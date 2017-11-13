@@ -16,6 +16,8 @@ This is the first public release of RiseML.
 This release provides no migration path for release candidates so far (we only provide migration paths for stable/proper releases).
 To upgrade, you need to uninstall your existing RiseML installations and re-install.
 You can use `helm del --purge riseml` to uninstall RiseML from Kubernetes.
+
 If you configured persistence for your existing RiseML installation, make sure to delete existing files on your database, git and log storage.
-Afterwards, re-install riseml as per the docs (http://docs.riseml.com/).
+Afterwards, re-install RiseML as per the [docs](http://docs.riseml.com/).
+
 In the installation parameters, `dockerBuild` was renamed to `imageBuilder`, so if you used that flag, please rename it (all other configuration parameters remained).
