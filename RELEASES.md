@@ -1,4 +1,4 @@
-# RiseML v0.8.0
+# RiseML v0.8.0 (2017/11/13)
 
 This is the first public release of RiseML.
 
