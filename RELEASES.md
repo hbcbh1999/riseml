@@ -3,7 +3,7 @@
 🎉 This is the first public release of RiseML!
 
 ## Installation
-To install RiseML, follow the [installation guide](http://docs.riseml.com/install) from RiseML's documentation.
+To install RiseML, follow the [installation guide](http://docs.riseml.com/install).
 
 ## Release Notes
 - Introducing new features:
