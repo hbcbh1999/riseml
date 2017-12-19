@@ -1,11 +1,25 @@
 # RiseML v1.0.0 (2017/12/19)
 
-This marks our 1.0.0 release.
+This marks our 1.0.0 release 🎊🎉. We focused on making this release more stable and fixed many smaller bugs and messages compared to the previous version.
+There are two major improvements.
+First, RiseML now makes use of Kubernetes' persistent volume claims for its `data` and `output` volumes.
+This tighter integration allows using any of the storage types that are supported in Kubernetes.
+Second, we now provide a quick installer, which spins up a complete RiseML cluster (including GPU nodes) on AWS for you.
+All you need is an AWS account and you're good to go in 15 minutes!
+
+## Installation
+To install RiseML, follow the [installation guide](http://docs.riseml.com/install).
+New in this release is a simple installer that spins up a complete RiseML cluster on AWS for you.
+Check out our [quick setup instructions](http://docs.riseml.com/install/quicksetup.html).
 
 ## Release Notes
-- Re-worked storage integration with Kubernetes
+- Reworked storage integration with Kubernetes
 - Quick installer for AWS
-- Several fixes for better error reporting
+- Improved error reporting
+- Enable support for different plans: basic, professional
+- Fixed `riseml init`
+- Fixed Tensorboard links with latest Tensorflow versions
+- Many minor UX improvements (messages, command flags, ...)
 
 ## Upgrading from release candidates
 
