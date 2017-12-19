@@ -21,7 +21,7 @@ Check out our [quick setup instructions](http://docs.riseml.com/install/quickset
 - Fixed Tensorboard links with latest Tensorflow versions
 - Many minor UX improvements (messages, command flags, ...)
 
-## Upgrading from version v0.8.0
+## Upgrading from Version v0.8.0
 
 Before upgrading:
 - backup your existing data volumes
