@@ -1,3 +1,25 @@
+# RiseML v1.0.0 (2017/12/19)
+
+We are 1.0.0 finally. 
+
+## Release Notes
+- Re-worked storage integration with Kubernetes
+- Quick installer for AWS
+- Several fixes for better error reporting
+
+## Upgrading from release candidates
+
+Before upgrading:
+- backup your existing data volumes
+- make sure to prepare `data` and `output` Kubernetes volumes as described in our [documentation](http://docs.riseml.com/install/kubernetes.html#persistence)
+- remove the options `data` and `output` from you installation configuration (usually `riseml-config.yml`)
+
+To update to the newest version, you can then run:
+```
+helm upgrade riseml-charts/riseml -f riseml-config.yml
+```
+If you need support with upgrading, please contact us.
+
 # RiseML v0.8.0 (2017/11/13)
 
 🎉 This is the first public release of RiseML!
