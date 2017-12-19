@@ -13,6 +13,7 @@ Before upgrading:
 - backup your existing data volumes
 - make sure to prepare `data` and `output` Kubernetes volumes as described in our [documentation](http://docs.riseml.com/install/kubernetes.html#persistence)
 - remove the options `data` and `output` from you installation configuration (usually `riseml-config.yml`)
+- verify the configuration options in `riseml-config.yml` are still valid since they will be applied again (e.g., if you changed the account key to a different one it may be reset)
 
 To update to the newest version, you can then run:
 ```
