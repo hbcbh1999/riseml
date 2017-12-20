@@ -4,7 +4,7 @@ This release fixes a minor installation issue with Kubernetes Version 1.9
 
 ## Release Notes
 - Support installation on Kubernetes 1.9
-- New minimum version: Kubernetes 1.8
+- Minimum Kubernetes Version is now 1.8
 
 # RiseML v1.0.0 (2017/12/19)
 
