@@ -31,7 +31,7 @@ Before upgrading:
 
 To update to the newest version:
 ```
-helm riseml update
+helm update riseml
 helm upgrade riseml-charts/riseml -f riseml-config.yml
 ```
 If you need support with upgrading, please contact us.
