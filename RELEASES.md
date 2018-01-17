@@ -1,3 +1,13 @@
+# RiseML v1.0.2 (2018/01/17)
+
+This release brings persistence for the NFS provisioner. Together with the latest version
+of RiseML's AWS installer, you will get a persisted and auto-scaling RiseML installation on
+AWS!
+
+## Release Notes
+- Configurable persistence for NFS provisioner
+- Auto-scaling and persistence when using RiseML AWS installer (see website)
+
 # RiseML v1.0.1 (2017/12/20)
 
 This release fixes a minor installation issue with Kubernetes Version 1.9
